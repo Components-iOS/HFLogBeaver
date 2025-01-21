@@ -1,0 +1,6 @@
+framework module HFLogBeaver {
+  umbrella header "HFLogBeaver-umbrella.h"
+
+  export *
+  module * { export * }
+}
