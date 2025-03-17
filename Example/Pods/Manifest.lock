@@ -1,5 +1,5 @@
 PODS:
-  - HFLogBeaver (0.1.0)
+  - HFLogBeaver (0.1.1)
 
 DEPENDENCIES:
   - HFLogBeaver (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HFLogBeaver: 55899c8a77f1075bac81fd31984d001d46ef89f2
+  HFLogBeaver: b9f20b57deb6d57dece08b5a4bd088c69fddfdd8
 
 PODFILE CHECKSUM: a4dde5a4720d0bc39c2334c3813b128cb1e95ca0
 

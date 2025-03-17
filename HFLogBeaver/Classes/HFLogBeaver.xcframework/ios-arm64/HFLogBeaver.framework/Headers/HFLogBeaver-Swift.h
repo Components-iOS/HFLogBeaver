@@ -302,20 +302,194 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #endif
 
 #if defined(__OBJC__)
+/// 日志级别枚举
+typedef SWIFT_ENUM(NSInteger, LogLevel, open) {
+/// 详细日志，最低级别
+  LogLevelVerbose = 0,
+/// 调试日志
+  LogLevelDebug = 1,
+/// 信息日志
+  LogLevelInfo = 2,
+/// 警告日志
+  LogLevelWarning = 3,
+/// 错误日志
+  LogLevelError = 4,
+/// 严重错误日志
+  LogLevelCritical = 5,
+/// 故障日志，最高级别
+  LogLevelFault = 6,
+};
+
 @class NSString;
 
-SWIFT_CLASS("_TtC11HFLogBeaver11HFLogBeaver")
-@interface HFLogBeaver : NSObject
-SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) HFLogBeaver * _Nonnull shared;)
-+ (HFLogBeaver * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
-@property (nonatomic, copy) NSString * _Nullable logDirectory;
+SWIFT_CLASS("_TtC11HFLogBeaver12LoggerBridge")
+@interface LoggerBridge : NSObject
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) LoggerBridge * _Nonnull shared;)
++ (LoggerBridge * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+@property (nonatomic) BOOL enableFileLog;
+@property (nonatomic, copy) NSString * _Nullable logFilePrefixName;
+@property (nonatomic, copy) NSString * _Nullable logFilePath;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
 + (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
-- (void)setupLogger;
-- (NSString * _Nonnull)getLogDirectory SWIFT_WARN_UNUSED_RESULT;
-- (void)logInfo:(id _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line;
-- (void)logWarning:(id _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line;
-- (void)logError:(id _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line;
+- (void)addConsoleDestinationWithMinLevel:(NSInteger)minLevel useTerminalColors:(BOOL)useTerminalColors;
+- (void)addFileDestinationWithLogFileStr:(NSString * _Nullable)logFileStr minLevel:(NSInteger)minLevel logFileMaxSize:(NSUInteger)logFileMaxSize logFileAmount:(NSUInteger)logFileAmount logPrefixName:(NSString * _Nonnull)logPrefixName;
+- (void)removeAllDestinations;
+- (NSInteger)countDestinations SWIFT_WARN_UNUSED_RESULT;
+- (void)rotateLogs;
+- (void)verbose:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+- (void)debug:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+- (void)info:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+- (void)warning:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+- (void)error:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+- (void)critical:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+- (void)fault:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(int32_t)line context:(id _Nullable)context;
+@end
+
+
+/// Swift日志记录器
+SWIFT_CLASS("_TtC11HFLogBeaver11SwiftLogger")
+@interface SwiftLogger : NSObject
+/// 共享实例
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) SwiftLogger * _Nonnull shared;)
++ (SwiftLogger * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
+/// 是否写入本地文件，默认为false
+@property (nonatomic) BOOL enableFileLog;
+/// 日志的文件前缀名称，默认为应用名称
+@property (nonatomic, copy) NSString * _Nullable logPrefixName;
+/// 日志的路径
+@property (nonatomic, copy) NSString * _Nullable logFilePath;
+/// 日志文件的最大个数，enableFileLog == true时生效，默认为7
+@property (nonatomic) NSUInteger logFileAmount;
+/// 日志文件的Size大小，默认是 1024 * 1024 * 5
+@property (nonatomic) NSUInteger logFileMaxSize;
+/// 日志最低级别
+@property (nonatomic) enum LogLevel minLevel;
+/// 私有初始化方法
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_DEPRECATED_MSG("-init is unavailable");
+/// 添加控制台日志目标
+/// \param minLevel 最低日志级别
+///
+/// \param useTerminalColors 是否使用终端颜色
+///
+- (void)addConsoleDestinationWithMinLevel:(enum LogLevel)minLevel useTerminalColors:(BOOL)useTerminalColors;
+/// 添加文件日志目标
+/// \param logFileStr 日志文件路径
+///
+/// \param minLevel 最低日志级别
+///
+/// \param logFileMaxSize 日志文件最大大小（字节）
+///
+/// \param logFileAmount 保留的日志文件数量
+///
+/// \param logPrefixName 日志文件前缀名称
+///
+- (void)addFileDestinationWithLogFileStr:(NSString * _Nullable)logFileStr minLevel:(enum LogLevel)minLevel logFileMaxSize:(NSUInteger)logFileMaxSize logFileAmount:(NSUInteger)logFileAmount logPrefixName:(NSString * _Nonnull)logPrefixName;
+/// 设置日志系统
+- (void)setupLogBeaver;
+/// 获取日志的文件前缀名称
+///
+/// returns:
+/// 文件前缀
+- (NSString * _Nullable)getLogPrefixName SWIFT_WARN_UNUSED_RESULT;
+/// 获取日志存储文件夹
+///
+/// returns:
+/// 文件路径
+- (NSString * _Nullable)getLogFilePath SWIFT_WARN_UNUSED_RESULT;
+/// 轮转日志文件
+- (void)rotateLogs;
+/// 移除所有日志目标
+- (void)removeAllDestinations;
+/// 获取目标数量
+///
+/// returns:
+/// 当前日志目标数量
+- (NSInteger)countDestinations SWIFT_WARN_UNUSED_RESULT;
+/// 记录详细日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)verbose:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
+/// 记录调试日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)debug:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
+/// 记录信息日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)info:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
+/// 记录警告日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)warning:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
+/// 记录错误日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)error:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
+/// 记录严重错误日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)critical:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
+/// 记录故障日志
+/// \param message 日志消息
+///
+/// \param file 文件名
+///
+/// \param function 函数名
+///
+/// \param line 行号
+///
+/// \param context 上下文信息
+///
+- (void)fault:(NSString * _Nonnull)message file:(NSString * _Nonnull)file function:(NSString * _Nonnull)function line:(NSInteger)line context:(id _Nullable)context;
 @end
 
 #endif

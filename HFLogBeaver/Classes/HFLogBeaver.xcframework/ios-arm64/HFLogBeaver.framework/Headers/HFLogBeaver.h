@@ -15,4 +15,4 @@ FOUNDATION_EXPORT const unsigned char HFLogBeaverVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <HFLogBeaver/PublicHeader.h>
 
-#import <HFLogBeaver/HFLogger.h>
+#import <HFLogBeaver/OCLogger.h>

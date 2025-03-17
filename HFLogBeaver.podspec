@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFLogBeaver'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = '日志打印工具'
   s.description      = <<-DESC
   日志打印
