@@ -15333,882 +15333,882 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 188,
       "length": 5,
       "value": "\"iOS\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 684,
       "length": 39,
       "value": "\"$DHH:mm:ss.SSS$d $C$L$c $N.$F:$l - $M\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 823,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1284,
       "length": 9,
       "value": "\"VERBOSE\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1321,
       "length": 7,
       "value": "\"DEBUG\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1355,
       "length": 6,
       "value": "\"INFO\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1391,
       "length": 9,
       "value": "\"WARNING\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1428,
       "length": 7,
       "value": "\"ERROR\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1466,
       "length": 10,
       "value": "\"CRITICAL\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1504,
       "length": 7,
       "value": "\"FAULT\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1656,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1700,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1744,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1791,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1835,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1881,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1921,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1960,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 1980,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 2618,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 5017,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFBaseDestination.swift",
       "kind": "StringLiteral",
       "offset": 11879,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 643,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1003,
       "length": 13,
       "value": "\"\u001B[0m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1042,
       "length": 16,
       "value": "\"\u001B[38;5;\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1096,
       "length": 6,
       "value": "\"251m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1152,
       "length": 5,
       "value": "\"35m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1208,
       "length": 5,
       "value": "\"38m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1267,
       "length": 6,
       "value": "\"178m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1323,
       "length": 6,
       "value": "\"197m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1381,
       "length": 6,
       "value": "\"197m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1433,
       "length": 6,
       "value": "\"197m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1623,
       "length": 21,
       "value": "\"⬜️⬜️⬜️ \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1701,
       "length": 15,
       "value": "\"🟩🟩🟩 \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1771,
       "length": 15,
       "value": "\"🟦🟦🟦 \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1844,
       "length": 15,
       "value": "\"🟨🟨🟨 \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1914,
       "length": 15,
       "value": "\"😱😱😱 \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 1986,
       "length": 21,
       "value": "\"❤️❤️❤️ \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "StringLiteral",
       "offset": 2058,
       "length": 15,
       "value": "\"🟥🟥🟥 \""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFConsoleDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 880,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 239,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 579,
       "length": 13,
       "value": "\"\u001B[0m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 618,
       "length": 16,
       "value": "\"\u001B[38;5;\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 672,
       "length": 6,
       "value": "\"251m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 728,
       "length": 5,
       "value": "\"35m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 784,
       "length": 5,
       "value": "\"38m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 843,
       "length": 6,
       "value": "\"178m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 899,
       "length": 6,
       "value": "\"197m\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 964,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 992,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 1032,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 1070,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 1107,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 1147,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "StringLiteral",
       "offset": 1185,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "BooleanLiteral",
       "offset": 276,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "IntegerLiteral",
       "offset": 1402,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "IntegerLiteral",
       "offset": 1406,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "IntegerLiteral",
       "offset": 1413,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFileDestination.swift",
       "kind": "IntegerLiteral",
       "offset": 1540,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 5468,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 5526,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 5793,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 5849,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 6113,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 6169,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 6434,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 6490,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 6753,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 6807,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 7040,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 7441,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 7499,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 7765,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 7821,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 8084,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 8140,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 8404,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 8460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 8722,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 8776,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 9008,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 9402,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 9460,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 9723,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 9779,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10039,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10095,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10356,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10412,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10671,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10725,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFFilter.swift",
       "kind": "BooleanLiteral",
       "offset": 10954,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "StringLiteral",
       "offset": 208,
       "length": 7,
       "value": "\"2.1.1\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 303,
       "length": 4,
       "value": "2110"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 406,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 429,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 451,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 476,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 499,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 525,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "IntegerLiteral",
       "offset": 548,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/Sources\/HFSwiftyBeaver.swift",
       "kind": "StringLiteral",
       "offset": 933,
       "length": 19,
       "value": "\"destination queue\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 267,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 307,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 346,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 388,
       "length": 1,
       "value": "3"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 428,
       "length": 1,
       "value": "4"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 477,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 532,
       "length": 1,
       "value": "6"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2122,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2235,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2239,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 2246,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "BooleanLiteral",
       "offset": 2709,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 3266,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 3270,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 3277,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "IntegerLiteral",
       "offset": 3305,
       "length": 1,
       "value": "7"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/SwiftLogger.swift",
       "kind": "StringLiteral",
       "offset": 3332,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 874,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "BooleanLiteral",
       "offset": 1341,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1786,
       "length": 1,
       "value": "5"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1790,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1797,
       "length": 4,
       "value": "1024"
     },
     {
-      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
+      "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
       "offset": 1825,
       "length": 1,
