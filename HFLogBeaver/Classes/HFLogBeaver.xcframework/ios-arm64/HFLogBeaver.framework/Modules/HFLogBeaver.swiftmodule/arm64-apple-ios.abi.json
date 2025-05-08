@@ -12165,35 +12165,35 @@
     {
       "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "BooleanLiteral",
-      "offset": 1341,
+      "offset": 1343,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 1786,
+      "offset": 1788,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 1790,
+      "offset": 1792,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 1797,
+      "offset": 1799,
       "length": 4,
       "value": "1024"
     },
     {
       "filePath": "\/Users\/bizconf\/Desktop\/GitHub\/Components-iOS\/PrivateSDK\/HFLogBeaver\/HFLogBeaver\/LoggerBridge.swift",
       "kind": "IntegerLiteral",
-      "offset": 1825,
+      "offset": 1827,
       "length": 1,
       "value": "1"
     }
