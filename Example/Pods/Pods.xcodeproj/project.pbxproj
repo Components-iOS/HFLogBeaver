@@ -386,6 +386,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		0BFFDE7A6C992885E5811D817310FE5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE4563A3FD08CCE3309194939B4C3C7 /* HFLogBeaver.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		1ADBB5722B69CCE7E6A9A40AE9D5FEA1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2AFC704DB7267F0CE7D9068F330FB34 /* Pods-HFLogBeaver_Example.debug.xcconfig */;
@@ -421,21 +436,6 @@
 			};
 			name = Debug;
 		};
-		201683518CBB0C80CB4A13F1222EF38F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 287C6FDDC72EAA4EC5085BDEC6961F29 /* HFLogBeaver.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		3608AD7F4B0499980A29E5FC75D33C52 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12C70AB7E23D9236778460C54CAB1B36 /* Pods-HFLogBeaver_Tests.debug.xcconfig */;
@@ -468,20 +468,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		57A6C4844BB98E6569D84435431DCD22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CEE4563A3FD08CCE3309194939B4C3C7 /* HFLogBeaver.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -544,6 +530,22 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0065B266871C8F79C0ACD0AF63AF4BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 287C6FDDC72EAA4EC5085BDEC6961F29 /* HFLogBeaver.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -700,8 +702,8 @@
 		2C363ACF9784673889D1F92EE308F10E /* Build configuration list for PBXAggregateTarget "HFLogBeaver" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				57A6C4844BB98E6569D84435431DCD22 /* Debug */,
-				201683518CBB0C80CB4A13F1222EF38F /* Release */,
+				0BFFDE7A6C992885E5811D817310FE5D /* Debug */,
+				A0065B266871C8F79C0ACD0AF63AF4BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

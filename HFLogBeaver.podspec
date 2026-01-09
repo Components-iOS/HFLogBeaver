@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HFLogBeaver'
-  s.version          = '1.2.0'
+  s.version          = '2.0.0'
   s.summary          = '日志打印工具'
   s.description      = <<-DESC
   日志打印
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.author           = { 'liuhongfei' => '13718045729@163.com' }
   s.source           = { :git => 'https://github.com/Components-iOS/HFLogBeaver.git', :tag => s.version.to_s }
   s.ios.deployment_target = '12.0'
-  s.platform         = :ios
+  s.osx.deployment_target = '10.15'
   s.xcconfig              = { "BUILD_LIBRARY_FOR_DISTRIBUTION" => "YES" }
   s.pod_target_xcconfig   = { "VALID_ARCHS" => "arm64 armv7 x86_64", "DEFINES_MODULE" => "YES" }
   s.user_target_xcconfig  = { "VALID_ARCHS" => "arm64 armv7 x86_64", "DEFINES_MODULE" => "YES" }

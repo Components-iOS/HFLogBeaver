@@ -1,0 +1,11 @@
+framework module HFLogBeaver {
+  umbrella header "HFLogBeaver.h"
+  export *
+
+  module * { export * }
+}
+
+module HFLogBeaver.Swift {
+  header "HFLogBeaver-Swift.h"
+  requires objc
+}

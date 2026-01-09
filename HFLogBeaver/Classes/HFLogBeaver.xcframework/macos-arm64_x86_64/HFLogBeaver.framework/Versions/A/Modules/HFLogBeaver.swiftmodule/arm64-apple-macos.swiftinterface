@@ -1,0 +1,296 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-4.1.50 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-macos13.1 -enable-objc-interop -enable-library-evolution -swift-version 4 -enforce-exclusivity=checked -Onone -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name HFLogBeaver
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Dispatch
+import Foundation
+@_exported import HFLogBeaver
+import OSLog
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+open class HFBaseDestination : Swift.Hashable, Swift.Equatable {
+  open var format: Swift.String
+  open var asynchronously: Swift.Bool
+  open var minLevel: HFLogBeaver.HFSwiftyBeaver.Level
+  open var levelString: HFLogBeaver.HFBaseDestination.LevelString
+  open var levelColor: HFLogBeaver.HFBaseDestination.LevelColor
+  open var calendar: Foundation.Calendar
+  public struct LevelString {
+    public var verbose: Swift.String
+    public var debug: Swift.String
+    public var info: Swift.String
+    public var warning: Swift.String
+    public var error: Swift.String
+    public var critical: Swift.String
+    public var fault: Swift.String
+  }
+  public struct LevelColor {
+    public var verbose: Swift.String
+    public var debug: Swift.String
+    public var info: Swift.String
+    public var warning: Swift.String
+    public var error: Swift.String
+    public var critical: Swift.String
+    public var fault: Swift.String
+  }
+  public var hashValue: Swift.Int {
+    get
+    set
+  }
+  open var defaultHashValue: Swift.Int {
+    get
+  }
+  public init()
+  open func send(_ level: HFLogBeaver.HFSwiftyBeaver.Level, msg: Swift.String, thread: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int, context: Any? = nil) -> Swift.String?
+  public func execute(synchronously: Swift.Bool, block: @escaping () -> Swift.Void)
+  public func executeSynchronously<T>(block: @escaping () throws -> T) rethrows -> T
+  public func addFilter(_ filter: any HFLogBeaver.FilterType)
+  public func removeFilter(_ filter: any HFLogBeaver.FilterType)
+  @objc deinit
+  open func hash(into hasher: inout Swift.Hasher)
+}
+public func == (lhs: HFLogBeaver.HFBaseDestination, rhs: HFLogBeaver.HFBaseDestination) -> Swift.Bool
+@_inheritsConvenienceInitializers open class HFConsoleDestination : HFLogBeaver.HFBaseDestination {
+  public enum LogPrintWay {
+    case logger(subsystem: Swift.String, category: Swift.String)
+    case nslog
+    case print
+  }
+  public var logPrintWay: HFLogBeaver.HFConsoleDestination.LogPrintWay
+  public var useNSLog: Swift.Bool {
+    get
+    set
+  }
+  public var useTerminalColors: Swift.Bool {
+    get
+    set
+  }
+  override public var defaultHashValue: Swift.Int {
+    get
+  }
+  override public init()
+  override open func send(_ level: HFLogBeaver.HFSwiftyBeaver.Level, msg: Swift.String, thread: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int, context: Any? = nil) -> Swift.String?
+  @objc deinit
+}
+open class HFFileDestination : HFLogBeaver.HFBaseDestination {
+  public var logFileURL: Foundation.URL?
+  public var syncAfterEachWrite: Swift.Bool
+  public var colored: Swift.Bool {
+    get
+    set
+  }
+  public var logFileMaxSize: Swift.Int
+  public var logFileAmount: Swift.Int
+  override public var defaultHashValue: Swift.Int {
+    get
+  }
+  public init(logFileURL: Foundation.URL? = nil)
+  override open func send(_ level: HFLogBeaver.HFSwiftyBeaver.Level, msg: Swift.String, thread: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int, context: Any? = nil) -> Swift.String?
+  public func deleteLogFile() -> Swift.Bool
+  @objc deinit
+}
+public protocol FilterType : AnyObject {
+  func apply(_ value: Swift.String?) -> Swift.Bool
+  func getTarget() -> HFLogBeaver.Filter.TargetType
+  func isRequired() -> Swift.Bool
+  func isExcluded() -> Swift.Bool
+  func reachedMinLevel(_ level: HFLogBeaver.HFSwiftyBeaver.Level) -> Swift.Bool
+}
+@_hasMissingDesignatedInitializers public class Filters {
+  public static let Path: HFLogBeaver.PathFilterFactory.Type
+  public static let Function: HFLogBeaver.FunctionFilterFactory.Type
+  public static let Message: HFLogBeaver.MessageFilterFactory.Type
+  @objc deinit
+}
+public class Filter {
+  public enum TargetType {
+    case Path(HFLogBeaver.Filter.ComparisonType)
+    case Function(HFLogBeaver.Filter.ComparisonType)
+    case Message(HFLogBeaver.Filter.ComparisonType)
+  }
+  public enum ComparisonType {
+    case StartsWith([Swift.String], Swift.Bool)
+    case Contains([Swift.String], Swift.Bool)
+    case Excludes([Swift.String], Swift.Bool)
+    case EndsWith([Swift.String], Swift.Bool)
+    case Equals([Swift.String], Swift.Bool)
+    case Custom((Swift.String) -> Swift.Bool)
+  }
+  public init(_ target: HFLogBeaver.Filter.TargetType, required: Swift.Bool, minLevel: HFLogBeaver.HFSwiftyBeaver.Level)
+  public func getTarget() -> HFLogBeaver.Filter.TargetType
+  public func isRequired() -> Swift.Bool
+  public func isExcluded() -> Swift.Bool
+  public func reachedMinLevel(_ level: HFLogBeaver.HFSwiftyBeaver.Level) -> Swift.Bool
+  @objc deinit
+}
+@_inheritsConvenienceInitializers public class CompareFilter : HFLogBeaver.Filter, HFLogBeaver.FilterType {
+  override public init(_ target: HFLogBeaver.Filter.TargetType, required: Swift.Bool, minLevel: HFLogBeaver.HFSwiftyBeaver.Level)
+  public func apply(_ value: Swift.String?) -> Swift.Bool
+  override public func isExcluded() -> Swift.Bool
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class FunctionFilterFactory {
+  public static func startsWith(_ prefixes: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func contains(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func excludes(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func endsWith(_ suffixes: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func equals(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func custom(required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose, filterPredicate: @escaping (Swift.String) -> Swift.Bool) -> any HFLogBeaver.FilterType
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MessageFilterFactory {
+  public static func startsWith(_ prefixes: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func contains(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func excludes(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func endsWith(_ suffixes: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func equals(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func custom(required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose, filterPredicate: @escaping (Swift.String) -> Swift.Bool) -> any HFLogBeaver.FilterType
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class PathFilterFactory {
+  public static func startsWith(_ prefixes: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func contains(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func excludes(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func endsWith(_ suffixes: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func equals(_ strings: Swift.String..., caseSensitive: Swift.Bool = false, required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose) -> any HFLogBeaver.FilterType
+  public static func custom(required: Swift.Bool = false, minLevel: HFLogBeaver.HFSwiftyBeaver.Level = .verbose, filterPredicate: @escaping (Swift.String) -> Swift.Bool) -> any HFLogBeaver.FilterType
+  @objc deinit
+}
+extension HFLogBeaver.Filter.TargetType : Swift.Equatable {
+}
+public func == (lhs: HFLogBeaver.Filter.TargetType, rhs: HFLogBeaver.Filter.TargetType) -> Swift.Bool
+final public class HFGoogleCloudDestination : HFLogBeaver.HFBaseDestination {
+  public init(serviceName: Swift.String)
+  override final public var asynchronously: Swift.Bool {
+    get
+    set
+  }
+  override final public func send(_ level: HFLogBeaver.HFSwiftyBeaver.Level, msg: Swift.String, thread: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int, context: Any? = nil) -> Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers open class HFSwiftyBeaver {
+  public static let version: Swift.String
+  public static let build: Swift.Int
+  public enum Level : Swift.Int {
+    case verbose
+    case debug
+    case info
+    case warning
+    case error
+    case critical
+    case fault
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public static var destinations: Swift.Set<HFLogBeaver.HFBaseDestination> {
+    get
+  }
+  @discardableResult
+  open class func addDestination(_ destination: HFLogBeaver.HFBaseDestination) -> Swift.Bool
+  @discardableResult
+  open class func removeDestination(_ destination: HFLogBeaver.HFBaseDestination) -> Swift.Bool
+  open class func removeAllDestinations()
+  open class func countDestinations() -> Swift.Int
+  open class func threadName() -> Swift.String
+  open class func verbose(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func debug(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func info(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func warning(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func error(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func critical(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func fault(_ message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  open class func custom(level: HFLogBeaver.HFSwiftyBeaver.Level, message: @autoclosure () -> Any, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  public class func flush(secondTimeout: Swift.Int64) -> Swift.Bool
+  @objc deinit
+}
+@available(iOS 8.0, macOS 10.10, tvOS 9.0, watchOS 2.0, *)
+extension HFLogBeaver.HFSwiftyBeaver.Level : Swift.Sendable {
+}
+@objc public enum LogLevel : Swift.Int {
+  case verbose = 0
+  case debug = 1
+  case info = 2
+  case warning = 3
+  case error = 4
+  case critical = 5
+  case fault = 6
+  public var description: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class SwiftLogger : ObjectiveC.NSObject {
+  @objc public static let shared: HFLogBeaver.SwiftLogger
+  @objc public var enableFileLog: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public var logPrefixName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var logFilePath: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc public var logFileAmount: Swift.UInt
+  @objc public var logFileMaxSize: Swift.UInt
+  @objc public var minLevel: HFLogBeaver.LogLevel
+  @objc public func addConsoleDestination(minLevel: HFLogBeaver.LogLevel, useTerminalColors: Swift.Bool = false)
+  @objc public func addFileDestination(logFileStr: Swift.String? = nil, minLevel: HFLogBeaver.LogLevel = .verbose, logFileMaxSize: Swift.UInt = 5 * 1024 * 1024, logFileAmount: Swift.UInt = 7, logPrefixName: Swift.String = "")
+  @objc public func setupLogBeaver()
+  @objc public func getLogPrefixName() -> Swift.String?
+  @objc public func getLogFilePath() -> Swift.String?
+  @objc public func rotateLogs()
+  @objc public func removeAllDestinations()
+  @objc public func countDestinations() -> Swift.Int
+  @objc public func verbose(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc public func debug(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc public func info(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc public func warning(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc public func error(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc public func critical(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc public func fault(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+  @objc deinit
+}
+public func logVerbose(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+public func logDebug(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+public func logInfo(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+public func logWarning(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+public func logError(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+public func logCritical(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+public func logFault(_ message: Swift.String, file: Swift.String = #file, function: Swift.String = #function, line: Swift.Int = #line, context: Any? = nil)
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class LoggerBridge : ObjectiveC.NSObject {
+  @objc public static let shared: HFLogBeaver.LoggerBridge
+  @objc public var enableFileLog: Swift.Bool
+  @objc public var logFilePrefixName: Swift.String?
+  @objc public var logFilePath: Swift.String?
+  @objc public func addConsoleDestination(minLevel: Swift.Int, useTerminalColors: Swift.Bool = false)
+  @objc public func addFileDestination(logFileStr: Swift.String?, minLevel: Swift.Int, logFileMaxSize: Swift.UInt = 5 * 1024 * 1024, logFileAmount: Swift.UInt = 1, logPrefixName: Swift.String)
+  @objc public func removeAllDestinations()
+  @objc public func countDestinations() -> Swift.Int
+  @objc public func rotateLogs()
+  @objc public func verbose(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc public func debug(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc public func info(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc public func warning(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc public func error(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc public func critical(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc public func fault(_ message: Swift.String, file: Swift.String, function: Swift.String, line: Swift.Int32, context: Any? = nil)
+  @objc deinit
+}
+extension HFLogBeaver.HFSwiftyBeaver.Level : Swift.Equatable {}
+extension HFLogBeaver.HFSwiftyBeaver.Level : Swift.Hashable {}
+extension HFLogBeaver.HFSwiftyBeaver.Level : Swift.RawRepresentable {}
+extension HFLogBeaver.LogLevel : Swift.Equatable {}
+extension HFLogBeaver.LogLevel : Swift.Hashable {}
+extension HFLogBeaver.LogLevel : Swift.RawRepresentable {}

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/HFLogBeaver-Swift.h</key>
 		<data>
-		xTNK0spOhENq+jSIwG0tfeOVDFM=
+		xmzyEHWLHg61fZ4LHBU6U6uLqHw=
 		</data>
 		<key>Headers/HFLogBeaver.h</key>
 		<data>
@@ -18,11 +18,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		hQigKkGzfe2FOp0cdNUVRQqCIV4=
+		RY28EJKqr+MFJ0ocjpE43s3Rr0s=
 		</data>
 		<key>Modules/HFLogBeaver.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		FqNDjKV+CR2vYjTw7RXd36YMTkM=
+		iOKftswB8pL07eQNzN3ydaiydGg=
 		</data>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
@@ -30,19 +30,19 @@
 		</data>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		2TQhjRzHxpeT0vmL/K0okxZ34Tw=
+		d/fxoos6HfFFDzzqywUCT22yJwM=
 		</data>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		/3Ss56pUNYhlxmNR7fqL4tucYlM=
+		IXcr0yIgQDp+jpd0Ft5qxgNByN8=
 		</data>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		2TQhjRzHxpeT0vmL/K0okxZ34Tw=
+		d/fxoos6HfFFDzzqywUCT22yJwM=
 		</data>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		maSSKD+/nJ4nv9LInEbPrxnWYms=
+		c2j79J0XmMzZBp70jzCJQH7XTCY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PfIMM/3fDOeivEk93bSMFQGQPcd2bgLi+eBU8bJscFM=
+			YVhr8TCYYVezPTTB+a29qkdnjO/KwZWJG35zoaj5gAg=
 			</data>
 		</dict>
 		<key>Headers/HFLogBeaver.h</key>
@@ -76,7 +76,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5rZl5wp4+TqsE5kvnr1eE4VSI7NLlV/Jgl5vN283cbs=
+			s5vQUV4n/kZdkJaU1HD42PoplVFXzw+bEU6yjljEQoI=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.abi.json</key>
@@ -90,28 +90,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjfqD1+GlqiXrlvrO0q8e4XJNaBWati8FY2UwcJd9/o=
+			BmE8TEUeWoD9HP3hp+0aQ4D18SRDMVN3hu1HT0TGKXs=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zhi8C/9AFn5umMB7P9KUN3AUJXYLd0R4JqaoLvWD95M=
+			OEqLGVAM59Tr+S2THY+Ae/rkc+eL6xIzTuEY/tNIxBI=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FjfqD1+GlqiXrlvrO0q8e4XJNaBWati8FY2UwcJd9/o=
+			BmE8TEUeWoD9HP3hp+0aQ4D18SRDMVN3hu1HT0TGKXs=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8enFdby7EsYExR9gaSUFmLe3kgIv9NqjmRFCgdmhYY=
+			DzdzkieRtxxHnbSDjc/PWrqfK+TVIHupi0aParQsegw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
