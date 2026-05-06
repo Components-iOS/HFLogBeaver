@@ -6,7 +6,7 @@
 	<dict>
 		<key>Resources/Info.plist</key>
 		<data>
-		TeWkl2EAsURzSMfgABfT1nm1zYw=
+		FMWCoVItYyGFscM3tCD4rKFv6fQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -15,7 +15,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WdOg3egTomOmaj9BCknhY3d76CjoKvcw2AbbbEINm70=
+			BJCTbdrIVglqJeYOsX71S2IRFDiod3Lajj7RPXWjnL4=
 			</data>
 		</dict>
 		<key>Headers/HFLogBeaver.h</key>
@@ -36,98 +36,98 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			a+h4i27Ux5DuC4e2myNyApETpKk+0guSIfas2k8o9SE=
+			GBK73Tx03go/Z/S3y8RYj3BhVLF/OEwGaTzCPT4WpOE=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/Project/x86_64-apple-macos.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			haNdogKbYBbKb1uOUKIreV2ifmikj8ziT1/a27KK9Os=
+			CDTcQsN5ogQNXMAc0e4a5kp49n2q2wrLDI68LR7lL9s=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhvgIIr8+PQ6c/xHgger8MNATeToEChFjJacypFiqlM=
+			MSydZ+FZnqnsHVISDR3AWrBFQN2/p5BqsQIw8iahl0s=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+0+Xjm8jE0UohUtwbMfhvmfGHZfrorCiK2aLmGT8dc=
+			dNkXMVp6EjT3f0NzBncciw5eJPr8KC23Auqw+luzJy8=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			omV9z56xNmCjblW1c5ouSI5WB0MgKgtQ0UnbWmd6vhU=
+			aICSaygSeTmpedPxDySmHlT81i2ujvBHlt1pRazlHwY=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X+0+Xjm8jE0UohUtwbMfhvmfGHZfrorCiK2aLmGT8dc=
+			dNkXMVp6EjT3f0NzBncciw5eJPr8KC23Auqw+luzJy8=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/arm64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IZV5c70aqSAyloA7Z8MiErJF7gf427TbdxzX+fXmsXo=
+			AFSEQMst2ayj0cpzOjODqCKj/KIDVg2Ja6AjLRut2xI=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fhvgIIr8+PQ6c/xHgger8MNATeToEChFjJacypFiqlM=
+			MSydZ+FZnqnsHVISDR3AWrBFQN2/p5BqsQIw8iahl0s=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VNsw6w5YVYzmn5nS28KucZaD9dP5EZWGejKjhPuhBcM=
+			chZ/jnAJ7u77zLbTui6GjJrX/TferfmqvSec1feBbdw=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			LeqAPyoBfH9+hCnFeNDmI20J5WjLtwQQ35jeSOIAv98=
+			7FG8kf0wrhnMvOmE1rfti2y6P9+nIhxA6rgebjGVptQ=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VNsw6w5YVYzmn5nS28KucZaD9dP5EZWGejKjhPuhBcM=
+			chZ/jnAJ7u77zLbTui6GjJrX/TferfmqvSec1feBbdw=
 			</data>
 		</dict>
 		<key>Modules/HFLogBeaver.swiftmodule/x86_64-apple-macos.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iuHXLZA3lLD/4qBxMHXxyHaeCH6ImSI13AL3Op0SuNI=
+			JNj/7Hno5x98fu/k+edC+ilCgKKNUHoD750DhsfPWxo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFYkT9HYMP30fwLUDWpNn+OtlddLBD7evSXeSnJDLAU=
+			BexUBm43v5Kc+fq/yzM6hr6witIG9uX5zrh25zcyS8A=
 			</data>
 		</dict>
 		<key>Resources/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r6Qx95/nvVih7dO4XOU97jQqQDF5CefmKBiA8T7E3ug=
+			s6E1SF/UZHk+YD0yqSLbyn4+PKfm45dk2/6Sq1usAWM=
 			</data>
 		</dict>
 	</dict>
