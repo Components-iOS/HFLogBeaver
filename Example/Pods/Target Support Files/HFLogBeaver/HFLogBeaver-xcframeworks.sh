@@ -20,11 +20,14 @@ variant_for_slice()
   "HFLogBeaver.xcframework/ios-arm64")
     echo ""
     ;;
-  "HFLogBeaver.xcframework/ios-x86_64-maccatalyst")
+  "HFLogBeaver.xcframework/ios-arm64_x86_64-maccatalyst")
     echo "maccatalyst"
     ;;
-  "HFLogBeaver.xcframework/ios-x86_64-simulator")
+  "HFLogBeaver.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
+    ;;
+  "HFLogBeaver.xcframework/macos-arm64_x86_64")
+    echo ""
     ;;
   esac
 }
@@ -35,11 +38,14 @@ archs_for_slice()
   "HFLogBeaver.xcframework/ios-arm64")
     echo "arm64"
     ;;
-  "HFLogBeaver.xcframework/ios-x86_64-maccatalyst")
-    echo "x86_64"
+  "HFLogBeaver.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "arm64 x86_64"
     ;;
-  "HFLogBeaver.xcframework/ios-x86_64-simulator")
-    echo "x86_64"
+  "HFLogBeaver.xcframework/ios-arm64_x86_64-simulator")
+    echo "arm64 x86_64"
+    ;;
+  "HFLogBeaver.xcframework/macos-arm64_x86_64")
+    echo "arm64 x86_64"
     ;;
   esac
 }
@@ -123,5 +129,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../HFLogBeaver/Classes/HFLogBeaver.xcframework" "HFLogBeaver" "framework" "ios-arm64" "ios-x86_64-maccatalyst" "ios-x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../HFLogBeaver/Classes/HFLogBeaver.xcframework" "HFLogBeaver" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
 

@@ -22,29 +22,6 @@
         "moduleName": "HFLogBeaver"
       },
       {
-        "kind": "Var",
-        "name": "OS",
-        "printedName": "OS",
-        "children": [
-          {
-            "kind": "TypeNominal",
-            "name": "String",
-            "printedName": "Swift.String",
-            "usr": "s:SS"
-          }
-        ],
-        "declKind": "Var",
-        "usr": "s:11HFLogBeaver2OSSSvp",
-        "mangledName": "$s11HFLogBeaver2OSSSvp",
-        "moduleName": "HFLogBeaver",
-        "declAttributes": [
-          "HasInitialValue",
-          "HasStorage"
-        ],
-        "isLet": true,
-        "hasStorage": true
-      },
-      {
         "kind": "TypeDecl",
         "name": "HFBaseDestination",
         "printedName": "HFBaseDestination",
@@ -1201,93 +1178,6 @@
                     "accessorKind": "_modify"
                   }
                 ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(verbose:debug:info:warning:error:critical:fault:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LevelString",
-                    "printedName": "HFLogBeaver.HFBaseDestination.LevelString",
-                    "usr": "s:11HFLogBeaver17HFBaseDestinationC11LevelStringV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC11LevelStringV7verbose5debug4info7warning5error8critical5faultAESS_S6Stcfc",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC11LevelStringV7verbose5debug4info7warning5error8critical5faultAESS_S6Stcfc",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LevelString",
-                    "printedName": "HFLogBeaver.HFBaseDestination.LevelString",
-                    "usr": "s:11HFLogBeaver17HFBaseDestinationC11LevelStringV"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC11LevelStringVAEycfc",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC11LevelStringVAEycfc",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "init_kind": "Designated"
               }
             ],
             "declKind": "Struct",
@@ -1926,93 +1816,6 @@
                     "accessorKind": "_modify"
                   }
                 ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(verbose:debug:info:warning:error:critical:fault:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LevelColor",
-                    "printedName": "HFLogBeaver.HFBaseDestination.LevelColor",
-                    "usr": "s:11HFLogBeaver17HFBaseDestinationC10LevelColorV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "hasDefaultArg": true,
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC10LevelColorV7verbose5debug4info7warning5error8critical5faultAESS_S6Stcfc",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10LevelColorV7verbose5debug4info7warning5error8critical5faultAESS_S6Stcfc",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "init_kind": "Designated"
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "LevelColor",
-                    "printedName": "HFLogBeaver.HFBaseDestination.LevelColor",
-                    "usr": "s:11HFLogBeaver17HFBaseDestinationC10LevelColorV"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC10LevelColorVAEycfc",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10LevelColorVAEycfc",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "init_kind": "Designated"
               }
             ],
             "declKind": "Struct",
@@ -2042,393 +1845,6 @@
           },
           {
             "kind": "Var",
-            "name": "reset",
-            "printedName": "reset",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC5resetSSvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5resetSSvp",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC5resetSSvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5resetSSvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC5resetSSvs",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5resetSSvs",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC5resetSSvM",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5resetSSvM",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "escape",
-            "printedName": "escape",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC6escapeSSvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC6escapeSSvp",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC6escapeSSvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC6escapeSSvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC6escapeSSvs",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC6escapeSSvs",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC6escapeSSvM",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC6escapeSSvM",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "filters",
-            "printedName": "filters",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any HFLogBeaver.FilterType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FilterType",
-                    "printedName": "any HFLogBeaver.FilterType",
-                    "usr": "s:11HFLogBeaver10FilterTypeP"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvp",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any HFLogBeaver.FilterType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FilterType",
-                        "printedName": "any HFLogBeaver.FilterType",
-                        "usr": "s:11HFLogBeaver10FilterTypeP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any HFLogBeaver.FilterType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FilterType",
-                        "printedName": "any HFLogBeaver.FilterType",
-                        "usr": "s:11HFLogBeaver10FilterTypeP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvs",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvs",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvM",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC7filtersSayAA10FilterType_pGvM",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "formatter",
-            "printedName": "formatter",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "DateFormatter",
-                "printedName": "Foundation.DateFormatter",
-                "usr": "c:objc(cs)NSDateFormatter"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC9formatterSo15NSDateFormatterCvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9formatterSo15NSDateFormatterCvp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DateFormatter",
-                    "printedName": "Foundation.DateFormatter",
-                    "usr": "c:objc(cs)NSDateFormatter"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC9formatterSo15NSDateFormatterCvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9formatterSo15NSDateFormatterCvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "startDate",
-            "printedName": "startDate",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Date",
-                "printedName": "Foundation.Date",
-                "usr": "s:10Foundation4DateV"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC9startDate10Foundation0F0Vvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9startDate10Foundation0F0Vvp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Date",
-                    "printedName": "Foundation.Date",
-                    "usr": "s:10Foundation4DateV"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC9startDate10Foundation0F0Vvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9startDate10Foundation0F0Vvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "hashValue",
             "printedName": "hashValue",
             "children": [
@@ -2443,7 +1859,6 @@
             "usr": "s:11HFLogBeaver17HFBaseDestinationC9hashValueSivp",
             "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9hashValueSivp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "Lazy"
@@ -2466,7 +1881,6 @@
                 "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9hashValueSivg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -2491,7 +1905,6 @@
                 "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9hashValueSivs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -2510,7 +1923,6 @@
                 "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9hashValueSivM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -2554,210 +1966,6 @@
                 "moduleName": "HFLogBeaver",
                 "isOpen": true,
                 "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "queue",
-            "printedName": "queue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Dispatch.DispatchQueue?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DispatchQueue",
-                    "printedName": "Dispatch.DispatchQueue",
-                    "usr": "c:objc(cs)OS_dispatch_queue"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvp",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Dispatch.DispatchQueue?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DispatchQueue",
-                        "printedName": "Dispatch.DispatchQueue",
-                        "usr": "c:objc(cs)OS_dispatch_queue"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Dispatch.DispatchQueue?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "DispatchQueue",
-                        "printedName": "Dispatch.DispatchQueue",
-                        "usr": "c:objc(cs)OS_dispatch_queue"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvs",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvs",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvM",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5queueSo012OS_dispatch_E0CSgvM",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "debugPrint",
-            "printedName": "debugPrint",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC10debugPrintSbvp",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10debugPrintSbvp",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "HasInitialValue",
-              "HasStorage",
-              "RawDocComment"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC10debugPrintSbvg",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10debugPrintSbvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC10debugPrintSbvs",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10debugPrintSbvs",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFBaseDestinationC10debugPrintSbvM",
-                "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10debugPrintSbvM",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "isOpen": true,
-                "accessorKind": "_modify"
               }
             ]
           },
@@ -2902,7 +2110,6 @@
             "usr": "s:11HFLogBeaver17HFBaseDestinationC7execute13synchronously5blockySb_yyctF",
             "mangledName": "$s11HFLogBeaver17HFBaseDestinationC7execute13synchronously5blockySb_yyctF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -2942,430 +2149,11 @@
             "moduleName": "HFLogBeaver",
             "genericSig": "<τ_0_0>",
             "sugared_genericSig": "<T>",
-            "isOpen": true,
             "declAttributes": [
               "Rethrows",
               "AccessControl"
             ],
             "throwing": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "formatMessage",
-            "printedName": "formatMessage(_:level:msg:thread:file:function:line:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC13formatMessage_5level3msg6thread4file8function4line7contextS2S_AA08HFSwiftyB0C5LevelOS4SSiypSgtF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC13formatMessage_5level3msg6thread4file8function4line7contextS2S_AA08HFSwiftyB0C5LevelOS4SSiypSgtF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "messageToJSON",
-            "printedName": "messageToJSON(_:msg:thread:file:function:line:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC13messageToJSON_3msg6thread4file8function4line7contextSSSgAA08HFSwiftyB0C5LevelO_S4SSiypSgtF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC13messageToJSON_3msg6thread4file8function4line7contextSSSgAA08HFSwiftyB0C5LevelO_S4SSiypSgtF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "levelWord",
-            "printedName": "levelWord(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC9levelWordySSAA08HFSwiftyB0C5LevelOF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9levelWordySSAA08HFSwiftyB0C5LevelOF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "colorForLevel",
-            "printedName": "colorForLevel(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC13colorForLevelySSAA08HFSwiftyB0C0G0OF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC13colorForLevelySSAA08HFSwiftyB0C0G0OF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fileNameOfFile",
-            "printedName": "fileNameOfFile(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC14fileNameOfFileyS2SF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC14fileNameOfFileyS2SF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "fileNameWithoutSuffix",
-            "printedName": "fileNameWithoutSuffix(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC21fileNameWithoutSuffixyS2SF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC21fileNameWithoutSuffixyS2SF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "formatDate",
-            "printedName": "formatDate(_:timeZone:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "hasDefaultArg": true,
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC10formatDate_8timeZoneS2S_SStF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC10formatDate_8timeZoneS2S_SStF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "uptime",
-            "printedName": "uptime()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC6uptimeSSyF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC6uptimeSSyF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "jsonStringValue",
-            "printedName": "jsonStringValue(_:key:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC15jsonStringValue_3keyS2SSg_SStF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC15jsonStringValue_3keyS2SSg_SStF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "jsonStringFromDict",
-            "printedName": "jsonStringFromDict(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[Swift.String : Any]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:SD"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC18jsonStringFromDictySSSgSDySSypGF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC18jsonStringFromDictySSSgSDySSypGF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "funcSelfKind": "NonMutating"
           },
           {
@@ -3389,7 +2177,6 @@
             "usr": "s:11HFLogBeaver17HFBaseDestinationC9addFilteryyAA0F4Type_pF",
             "mangledName": "$s11HFLogBeaver17HFBaseDestinationC9addFilteryyAA0F4Type_pF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -3417,154 +2204,8 @@
             "usr": "s:11HFLogBeaver17HFBaseDestinationC12removeFilteryyAA0F4Type_pF",
             "mangledName": "$s11HFLogBeaver17HFBaseDestinationC12removeFilteryyAA0F4Type_pF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "hasMessageFilters",
-            "printedName": "hasMessageFilters()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC17hasMessageFiltersSbyF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC17hasMessageFiltersSbyF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "shouldLevelBeLogged",
-            "printedName": "shouldLevelBeLogged(_:path:function:message:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC19shouldLevelBeLogged_4path8function7messageSbAA08HFSwiftyB0C0F0O_S3SSgtF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC19shouldLevelBeLogged_4path8function7messageSbAA08HFSwiftyB0C0F0O_S3SSgtF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getFiltersTargeting",
-            "printedName": "getFiltersTargeting(_:fromFilters:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any HFLogBeaver.FilterType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FilterType",
-                    "printedName": "any HFLogBeaver.FilterType",
-                    "usr": "s:11HFLogBeaver10FilterTypeP"
-                  }
-                ],
-                "usr": "s:Sa"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "TargetType",
-                "printedName": "HFLogBeaver.Filter.TargetType",
-                "usr": "s:11HFLogBeaver6FilterC10TargetTypeO"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[any HFLogBeaver.FilterType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FilterType",
-                    "printedName": "any HFLogBeaver.FilterType",
-                    "usr": "s:11HFLogBeaver10FilterTypeP"
-                  }
-                ],
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC19getFiltersTargeting_04fromF0SayAA10FilterType_pGAA0I0C06TargetJ0O_AGtF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC19getFiltersTargeting_04fromF0SayAA10FilterType_pGAA0I0C06TargetJ0O_AGtF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "flush",
-            "printedName": "flush()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFBaseDestinationC5flushyyF",
-            "mangledName": "$s11HFLogBeaver17HFBaseDestinationC5flushyyF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -3874,7 +2515,6 @@
             "usr": "s:11HFLogBeaver20HFConsoleDestinationC11logPrintWayAC03LogfG0Ovp",
             "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC11logPrintWayAC03LogfG0Ovp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3900,7 +2540,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC11logPrintWayAC03LogfG0Ovg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -3925,7 +2564,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC11logPrintWayAC03LogfG0Ovs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -3944,7 +2582,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC11logPrintWayAC03LogfG0OvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -3965,7 +2602,6 @@
             "usr": "s:11HFLogBeaver20HFConsoleDestinationC8useNSLogSbvp",
             "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC8useNSLogSbvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -3991,7 +2627,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC8useNSLogSbvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4016,7 +2651,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC8useNSLogSbvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4035,7 +2669,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC8useNSLogSbvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4056,7 +2689,6 @@
             "usr": "s:11HFLogBeaver20HFConsoleDestinationC17useTerminalColorsSbvp",
             "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC17useTerminalColorsSbvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4082,7 +2714,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC17useTerminalColorsSbvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4107,7 +2738,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC17useTerminalColorsSbvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4126,7 +2756,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC17useTerminalColorsSbvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4148,7 +2777,6 @@
             "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC16defaultHashValueSivp",
             "moduleName": "HFLogBeaver",
             "overriding": true,
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "Override"
@@ -4171,7 +2799,6 @@
                 "mangledName": "$s11HFLogBeaver20HFConsoleDestinationC16defaultHashValueSivg",
                 "moduleName": "HFLogBeaver",
                 "overriding": true,
-                "isOpen": true,
                 "accessorKind": "get"
               }
             ]
@@ -4376,7 +3003,6 @@
             "usr": "s:11HFLogBeaver17HFFileDestinationC10logFileURL10Foundation0G0VSgvp",
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC10logFileURL10Foundation0G0VSgvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4409,7 +3035,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC10logFileURL10Foundation0G0VSgvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4442,7 +3067,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC10logFileURL10Foundation0G0VSgvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4461,7 +3085,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC10logFileURL10Foundation0G0VSgvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4482,7 +3105,6 @@
             "usr": "s:11HFLogBeaver17HFFileDestinationC18syncAfterEachWriteSbvp",
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC18syncAfterEachWriteSbvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4507,7 +3129,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC18syncAfterEachWriteSbvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4532,7 +3153,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC18syncAfterEachWriteSbvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4551,7 +3171,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC18syncAfterEachWriteSbvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4572,7 +3191,6 @@
             "usr": "s:11HFLogBeaver17HFFileDestinationC7coloredSbvp",
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC7coloredSbvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4597,7 +3215,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC7coloredSbvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4622,7 +3239,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC7coloredSbvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4641,7 +3257,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC7coloredSbvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4662,7 +3277,6 @@
             "usr": "s:11HFLogBeaver17HFFileDestinationC14logFileMaxSizeSivp",
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC14logFileMaxSizeSivp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4688,7 +3302,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC14logFileMaxSizeSivg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4713,7 +3326,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC14logFileMaxSizeSivs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4732,7 +3344,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC14logFileMaxSizeSivM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4753,7 +3364,6 @@
             "usr": "s:11HFLogBeaver17HFFileDestinationC13logFileAmountSivp",
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC13logFileAmountSivp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -4779,7 +3389,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC13logFileAmountSivg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "get"
               },
               {
@@ -4804,7 +3413,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC13logFileAmountSivs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "set"
               },
               {
@@ -4823,7 +3431,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC13logFileAmountSivM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -4845,7 +3452,6 @@
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC16defaultHashValueSivp",
             "moduleName": "HFLogBeaver",
             "overriding": true,
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "Override"
@@ -4868,55 +3474,6 @@
                 "mangledName": "$s11HFLogBeaver17HFFileDestinationC16defaultHashValueSivg",
                 "moduleName": "HFLogBeaver",
                 "overriding": true,
-                "isOpen": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "fileManager",
-            "printedName": "fileManager",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FileManager",
-                "printedName": "Foundation.FileManager",
-                "usr": "c:objc(cs)NSFileManager"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver17HFFileDestinationC11fileManagerSo06NSFileF0Cvp",
-            "mangledName": "$s11HFLogBeaver17HFFileDestinationC11fileManagerSo06NSFileF0Cvp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "FileManager",
-                    "printedName": "Foundation.FileManager",
-                    "usr": "c:objc(cs)NSFileManager"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver17HFFileDestinationC11fileManagerSo06NSFileF0Cvg",
-                "mangledName": "$s11HFLogBeaver17HFFileDestinationC11fileManagerSo06NSFileF0Cvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
                 "accessorKind": "get"
               }
             ]
@@ -5042,62 +3599,6 @@
           },
           {
             "kind": "Function",
-            "name": "validateSaveFile",
-            "printedName": "validateSaveFile(str:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFFileDestinationC16validateSaveFile3strSbSS_tF",
-            "mangledName": "$s11HFLogBeaver17HFFileDestinationC16validateSaveFile3strSbSS_tF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "saveToFile",
-            "printedName": "saveToFile(str:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFFileDestinationC10saveToFile3strSbSS_tF",
-            "mangledName": "$s11HFLogBeaver17HFFileDestinationC10saveToFile3strSbSS_tF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "deleteLogFile",
             "printedName": "deleteLogFile()",
             "children": [
@@ -5112,7 +3613,6 @@
             "usr": "s:11HFLogBeaver17HFFileDestinationC13deleteLogFileSbyF",
             "mangledName": "$s11HFLogBeaver17HFFileDestinationC13deleteLogFileSbyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -5558,32 +4058,12 @@
                 "accessorKind": "get"
               }
             ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Filters",
-                "printedName": "HFLogBeaver.Filters",
-                "usr": "s:11HFLogBeaver7FiltersC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HFLogBeaver7FiltersCACycfc",
-            "mangledName": "$s11HFLogBeaver7FiltersCACycfc",
-            "moduleName": "HFLogBeaver",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:11HFLogBeaver7FiltersC",
         "mangledName": "$s11HFLogBeaver7FiltersC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -6247,147 +4727,6 @@
             ]
           },
           {
-            "kind": "Var",
-            "name": "targetType",
-            "printedName": "targetType",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "TargetType",
-                "printedName": "HFLogBeaver.Filter.TargetType",
-                "usr": "s:11HFLogBeaver6FilterC10TargetTypeO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver6FilterC10targetTypeAC06TargetE0Ovp",
-            "mangledName": "$s11HFLogBeaver6FilterC10targetTypeAC06TargetE0Ovp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "TargetType",
-                    "printedName": "HFLogBeaver.Filter.TargetType",
-                    "usr": "s:11HFLogBeaver6FilterC10TargetTypeO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver6FilterC10targetTypeAC06TargetE0Ovg",
-                "mangledName": "$s11HFLogBeaver6FilterC10targetTypeAC06TargetE0Ovg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "required",
-            "printedName": "required",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver6FilterC8requiredSbvp",
-            "mangledName": "$s11HFLogBeaver6FilterC8requiredSbvp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver6FilterC8requiredSbvg",
-                "mangledName": "$s11HFLogBeaver6FilterC8requiredSbvg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "minLevel",
-            "printedName": "minLevel",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:11HFLogBeaver6FilterC8minLevelAA08HFSwiftyB0C0E0Ovp",
-            "mangledName": "$s11HFLogBeaver6FilterC8minLevelAA08HFSwiftyB0C0E0Ovp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "Final",
-              "HasStorage"
-            ],
-            "isLet": true,
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Level",
-                    "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                    "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:11HFLogBeaver6FilterC8minLevelAA08HFSwiftyB0C0E0Ovg",
-                "mangledName": "$s11HFLogBeaver6FilterC8minLevelAA08HFSwiftyB0C0E0Ovg",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(_:required:minLevel:)",
@@ -6442,7 +4781,6 @@
             "usr": "s:11HFLogBeaver6FilterC9getTargetAC0E4TypeOyF",
             "mangledName": "$s11HFLogBeaver6FilterC9getTargetAC0E4TypeOyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -6464,7 +4802,6 @@
             "usr": "s:11HFLogBeaver6FilterC10isRequiredSbyF",
             "mangledName": "$s11HFLogBeaver6FilterC10isRequiredSbyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -6486,7 +4823,6 @@
             "usr": "s:11HFLogBeaver6FilterC10isExcludedSbyF",
             "mangledName": "$s11HFLogBeaver6FilterC10isExcludedSbyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -6514,7 +4850,6 @@
             "usr": "s:11HFLogBeaver6FilterC15reachedMinLevelySbAA08HFSwiftyB0C0F0OF",
             "mangledName": "$s11HFLogBeaver6FilterC15reachedMinLevelySbAA08HFSwiftyB0C0F0OF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
@@ -6526,7 +4861,6 @@
         "usr": "s:11HFLogBeaver6FilterC",
         "mangledName": "$s11HFLogBeaver6FilterC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -6624,7 +4958,6 @@
             "usr": "s:11HFLogBeaver13CompareFilterC5applyySbSSSgF",
             "mangledName": "$s11HFLogBeaver13CompareFilterC5applyySbSSSgF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl"
             ],
@@ -6647,7 +4980,6 @@
             "mangledName": "$s11HFLogBeaver13CompareFilterC10isExcludedSbyF",
             "moduleName": "HFLogBeaver",
             "overriding": true,
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "Override"
@@ -6659,7 +4991,6 @@
         "usr": "s:11HFLogBeaver13CompareFilterC",
         "mangledName": "$s11HFLogBeaver13CompareFilterC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -7043,32 +5374,12 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "FunctionFilterFactory",
-                "printedName": "HFLogBeaver.FunctionFilterFactory",
-                "usr": "s:11HFLogBeaver21FunctionFilterFactoryC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HFLogBeaver21FunctionFilterFactoryCACycfc",
-            "mangledName": "$s11HFLogBeaver21FunctionFilterFactoryCACycfc",
-            "moduleName": "HFLogBeaver",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:11HFLogBeaver21FunctionFilterFactoryC",
         "mangledName": "$s11HFLogBeaver21FunctionFilterFactoryC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -7441,32 +5752,12 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "MessageFilterFactory",
-                "printedName": "HFLogBeaver.MessageFilterFactory",
-                "usr": "s:11HFLogBeaver20MessageFilterFactoryC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HFLogBeaver20MessageFilterFactoryCACycfc",
-            "mangledName": "$s11HFLogBeaver20MessageFilterFactoryCACycfc",
-            "moduleName": "HFLogBeaver",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:11HFLogBeaver20MessageFilterFactoryC",
         "mangledName": "$s11HFLogBeaver20MessageFilterFactoryC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -7839,32 +6130,12 @@
               "AccessControl"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PathFilterFactory",
-                "printedName": "HFLogBeaver.PathFilterFactory",
-                "usr": "s:11HFLogBeaver17PathFilterFactoryC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HFLogBeaver17PathFilterFactoryCACycfc",
-            "mangledName": "$s11HFLogBeaver17PathFilterFactoryCACycfc",
-            "moduleName": "HFLogBeaver",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
         "usr": "s:11HFLogBeaver17PathFilterFactoryC",
         "mangledName": "$s11HFLogBeaver17PathFilterFactoryC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "RawDocComment"
@@ -7929,1286 +6200,6 @@
         "moduleName": "HFLogBeaver",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "HFFilterValidator",
-        "printedName": "HFFilterValidator",
-        "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "ValidationType",
-            "printedName": "ValidationType",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "excluded",
-                "printedName": "excluded",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(HFLogBeaver.HFFilterValidator.ValidationType.Type) -> HFLogBeaver.HFFilterValidator.ValidationType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidationType",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ValidationType",
-                            "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8excludedyA2EmF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8excludedyA2EmF",
-                "moduleName": "HFLogBeaver",
-                "fixedbinaryorder": 0
-              },
-              {
-                "kind": "Var",
-                "name": "required",
-                "printedName": "required",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(HFLogBeaver.HFFilterValidator.ValidationType.Type) -> HFLogBeaver.HFFilterValidator.ValidationType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidationType",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ValidationType",
-                            "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8requiredyA2EmF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8requiredyA2EmF",
-                "moduleName": "HFLogBeaver",
-                "fixedbinaryorder": 1
-              },
-              {
-                "kind": "Var",
-                "name": "nonRequired",
-                "printedName": "nonRequired",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(HFLogBeaver.HFFilterValidator.ValidationType.Type) -> HFLogBeaver.HFFilterValidator.ValidationType",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidationType",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ValidationType",
-                            "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO11nonRequiredyA2EmF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO11nonRequiredyA2EmF",
-                "moduleName": "HFLogBeaver",
-                "fixedbinaryorder": 2
-              },
-              {
-                "kind": "Function",
-                "name": "apply",
-                "printedName": "apply(to:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any HFLogBeaver.FilterType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FilterType",
-                        "printedName": "any HFLogBeaver.FilterType",
-                        "usr": "s:11HFLogBeaver10FilterTypeP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any HFLogBeaver.FilterType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FilterType",
-                        "printedName": "any HFLogBeaver.FilterType",
-                        "usr": "s:11HFLogBeaver10FilterTypeP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO5apply2toSayAA06FilterF0_pGAI_tF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO5apply2toSayAA06FilterF0_pGAI_tF",
-                "moduleName": "HFLogBeaver",
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ValidationType",
-                    "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ValidationType",
-                    "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO2eeoiySbAE_AEtFZ",
-                "moduleName": "HFLogBeaver",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "hashValue",
-                "printedName": "hashValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO9hashValueSivp",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO9hashValueSivp",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO9hashValueSivg",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO9hashValueSivg",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "hash",
-                "printedName": "hash(into:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hasher",
-                    "printedName": "Swift.Hasher",
-                    "paramValueOwnership": "InOut",
-                    "usr": "s:s6HasherV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO4hash4intoys6HasherVz_tF",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "allCases",
-                "printedName": "allCases",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[HFLogBeaver.HFFilterValidator.ValidationType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ValidationType",
-                        "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8allCasesSayAEGvpZ",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8allCasesSayAEGvpZ",
-                "moduleName": "HFLogBeaver",
-                "static": true,
-                "implicit": true,
-                "declAttributes": [
-                  "Nonisolated"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[HFLogBeaver.HFFilterValidator.ValidationType]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ValidationType",
-                            "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8allCasesSayAEGvgZ",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO8allCasesSayAEGvgZ",
-                    "moduleName": "HFLogBeaver",
-                    "static": true,
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO",
-            "mangledName": "$s11HFLogBeaver17HFFilterValidatorV14ValidationTypeO",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isEnumExhaustive": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              },
-              {
-                "kind": "Conformance",
-                "name": "CaseIterable",
-                "printedName": "CaseIterable",
-                "children": [
-                  {
-                    "kind": "TypeWitness",
-                    "name": "AllCases",
-                    "printedName": "AllCases",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[HFLogBeaver.HFFilterValidator.ValidationType]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ValidationType",
-                            "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ]
-                  }
-                ],
-                "usr": "s:s12CaseIterableP",
-                "mangledName": "$ss12CaseIterableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "BitwiseCopyable",
-                "printedName": "BitwiseCopyable",
-                "usr": "s:s15BitwiseCopyableP",
-                "mangledName": "$ss15BitwiseCopyableP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Input",
-            "printedName": "Input",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "filters",
-                "printedName": "filters",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any HFLogBeaver.FilterType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FilterType",
-                        "printedName": "any HFLogBeaver.FilterType",
-                        "usr": "s:11HFLogBeaver10FilterTypeP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV7filtersSayAA10FilterType_pGvp",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV7filtersSayAA10FilterType_pGvp",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 0,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[any HFLogBeaver.FilterType]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "FilterType",
-                            "printedName": "any HFLogBeaver.FilterType",
-                            "usr": "s:11HFLogBeaver10FilterTypeP"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV7filtersSayAA10FilterType_pGvg",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV7filtersSayAA10FilterType_pGvg",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "level",
-                "printedName": "level",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Level",
-                    "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                    "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV5levelAA08HFSwiftyB0C5LevelOvp",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV5levelAA08HFSwiftyB0C5LevelOvp",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 1,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Level",
-                        "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                        "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV5levelAA08HFSwiftyB0C5LevelOvg",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV5levelAA08HFSwiftyB0C5LevelOvg",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "path",
-                "printedName": "path",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV4pathSSvp",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV4pathSSvp",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 2,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV4pathSSvg",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV4pathSSvg",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "function",
-                "printedName": "function",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV8functionSSvp",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV8functionSSvp",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 3,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV8functionSSvg",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV8functionSSvg",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "message",
-                "printedName": "message",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV7messageSSSgvp",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV7messageSSSgvp",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "HasStorage"
-                ],
-                "fixedbinaryorder": 4,
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "Swift.String?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV7messageSSSgvg",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV7messageSSSgvg",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "declAttributes": [
-                      "Transparent"
-                    ],
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Constructor",
-                "name": "init",
-                "printedName": "init(filters:level:path:function:message:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Input",
-                    "printedName": "HFLogBeaver.HFFilterValidator.Input",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[any HFLogBeaver.FilterType]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "FilterType",
-                        "printedName": "any HFLogBeaver.FilterType",
-                        "usr": "s:11HFLogBeaver10FilterTypeP"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Level",
-                    "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                    "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Constructor",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV7filters5level4path8function7messageAESayAA10FilterType_pG_AA08HFSwiftyB0C5LevelOS3SSgtcfc",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV7filters5level4path8function7messageAESayAA10FilterType_pG_AA08HFSwiftyB0C5LevelOS3SSgtcfc",
-                "moduleName": "HFLogBeaver",
-                "implicit": true,
-                "init_kind": "Designated"
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV",
-            "mangledName": "$s11HFLogBeaver17HFFilterValidatorV5InputV",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "Result",
-            "printedName": "Result",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "allFiltersMatch",
-                "printedName": "allFiltersMatch",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(HFLogBeaver.HFFilterValidator.Result.Type) -> HFLogBeaver.HFFilterValidator.Result",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "HFLogBeaver.HFFilterValidator.Result.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Result",
-                            "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO15allFiltersMatchyA2EmF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO15allFiltersMatchyA2EmF",
-                "moduleName": "HFLogBeaver",
-                "fixedbinaryorder": 0
-              },
-              {
-                "kind": "Var",
-                "name": "someFiltersMatch",
-                "printedName": "someFiltersMatch",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(HFLogBeaver.HFFilterValidator.Result.Type) -> (HFLogBeaver.HFFilterValidator.Result.PartialMatchData) -> HFLogBeaver.HFFilterValidator.Result",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "(HFLogBeaver.HFFilterValidator.Result.PartialMatchData) -> HFLogBeaver.HFFilterValidator.Result",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Result",
-                            "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "PartialMatchData",
-                            "printedName": "HFLogBeaver.HFFilterValidator.Result.PartialMatchData",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV"
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "HFLogBeaver.HFFilterValidator.Result.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Result",
-                            "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16someFiltersMatchyA2E07PartialH4DataVcAEmF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16someFiltersMatchyA2E07PartialH4DataVcAEmF",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "RawDocComment"
-                ],
-                "fixedbinaryorder": 1
-              },
-              {
-                "kind": "Var",
-                "name": "noFiltersMatchingType",
-                "printedName": "noFiltersMatchingType",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(HFLogBeaver.HFFilterValidator.Result.Type) -> HFLogBeaver.HFFilterValidator.Result",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Result",
-                        "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "HFLogBeaver.HFFilterValidator.Result.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Result",
-                            "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                            "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO21noFiltersMatchingTypeyA2EmF",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO21noFiltersMatchingTypeyA2EmF",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "RawDocComment"
-                ],
-                "fixedbinaryorder": 2
-              },
-              {
-                "kind": "TypeDecl",
-                "name": "PartialMatchData",
-                "printedName": "PartialMatchData",
-                "children": [
-                  {
-                    "kind": "Var",
-                    "name": "fullMatchCount",
-                    "printedName": "fullMatchCount",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV04fullG5CountSivp",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV04fullG5CountSivp",
-                    "moduleName": "HFLogBeaver",
-                    "declAttributes": [
-                      "HasStorage"
-                    ],
-                    "fixedbinaryorder": 0,
-                    "isLet": true,
-                    "hasStorage": true,
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV04fullG5CountSivg",
-                        "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV04fullG5CountSivg",
-                        "moduleName": "HFLogBeaver",
-                        "implicit": true,
-                        "declAttributes": [
-                          "Transparent"
-                        ],
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "conditionMatchCount",
-                    "printedName": "conditionMatchCount",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV09conditionG5CountSivp",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV09conditionG5CountSivp",
-                    "moduleName": "HFLogBeaver",
-                    "declAttributes": [
-                      "HasStorage",
-                      "RawDocComment"
-                    ],
-                    "fixedbinaryorder": 1,
-                    "isLet": true,
-                    "hasStorage": true,
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV09conditionG5CountSivg",
-                        "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV09conditionG5CountSivg",
-                        "moduleName": "HFLogBeaver",
-                        "implicit": true,
-                        "declAttributes": [
-                          "Transparent"
-                        ],
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Var",
-                    "name": "logLevelMatchCount",
-                    "printedName": "logLevelMatchCount",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Var",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV08logLevelG5CountSivp",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV08logLevelG5CountSivp",
-                    "moduleName": "HFLogBeaver",
-                    "declAttributes": [
-                      "HasStorage",
-                      "RawDocComment"
-                    ],
-                    "fixedbinaryorder": 2,
-                    "isLet": true,
-                    "hasStorage": true,
-                    "accessors": [
-                      {
-                        "kind": "Accessor",
-                        "name": "Get",
-                        "printedName": "Get()",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Int",
-                            "printedName": "Swift.Int",
-                            "usr": "s:Si"
-                          }
-                        ],
-                        "declKind": "Accessor",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV08logLevelG5CountSivg",
-                        "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV08logLevelG5CountSivg",
-                        "moduleName": "HFLogBeaver",
-                        "implicit": true,
-                        "declAttributes": [
-                          "Transparent"
-                        ],
-                        "accessorKind": "get"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "Constructor",
-                    "name": "init",
-                    "printedName": "init(fullMatchCount:conditionMatchCount:logLevelMatchCount:)",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "PartialMatchData",
-                        "printedName": "HFLogBeaver.HFFilterValidator.Result.PartialMatchData",
-                        "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Constructor",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV04fullG5Count09conditiongJ008logLevelgJ0AGSi_S2itcfc",
-                    "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV04fullG5Count09conditiongJ008logLevelgJ0AGSi_S2itcfc",
-                    "moduleName": "HFLogBeaver",
-                    "implicit": true,
-                    "init_kind": "Designated"
-                  }
-                ],
-                "declKind": "Struct",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV",
-                "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO16PartialMatchDataV",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "RawDocComment"
-                ],
-                "conformances": [
-                  {
-                    "kind": "Conformance",
-                    "name": "Copyable",
-                    "printedName": "Copyable",
-                    "usr": "s:s8CopyableP",
-                    "mangledName": "$ss8CopyableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Escapable",
-                    "printedName": "Escapable",
-                    "usr": "s:s9EscapableP",
-                    "mangledName": "$ss9EscapableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "Sendable",
-                    "printedName": "Sendable",
-                    "usr": "s:s8SendableP",
-                    "mangledName": "$ss8SendableP"
-                  },
-                  {
-                    "kind": "Conformance",
-                    "name": "BitwiseCopyable",
-                    "printedName": "BitwiseCopyable",
-                    "usr": "s:s15BitwiseCopyableP",
-                    "mangledName": "$ss15BitwiseCopyableP"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO",
-            "mangledName": "$s11HFLogBeaver17HFFilterValidatorV6ResultO",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isEnumExhaustive": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Sendable",
-                "printedName": "Sendable",
-                "usr": "s:s8SendableP",
-                "mangledName": "$ss8SendableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "BitwiseCopyable",
-                "printedName": "BitwiseCopyable",
-                "usr": "s:s15BitwiseCopyableP",
-                "mangledName": "$ss15BitwiseCopyableP"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "validate",
-            "printedName": "validate(input:for:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Dictionary",
-                "printedName": "[HFLogBeaver.HFFilterValidator.ValidationType : HFLogBeaver.HFFilterValidator.Result]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ValidationType",
-                    "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Result",
-                    "printedName": "HFLogBeaver.HFFilterValidator.Result",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV6ResultO"
-                  }
-                ],
-                "usr": "s:SD"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Input",
-                "printedName": "HFLogBeaver.HFFilterValidator.Input",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV5InputV"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Array",
-                "printedName": "[HFLogBeaver.HFFilterValidator.ValidationType]",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ValidationType",
-                    "printedName": "HFLogBeaver.HFFilterValidator.ValidationType",
-                    "usr": "s:11HFLogBeaver17HFFilterValidatorV14ValidationTypeO"
-                  }
-                ],
-                "hasDefaultArg": true,
-                "usr": "s:Sa"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver17HFFilterValidatorV8validate5input3forSDyAC14ValidationTypeOAC6ResultOGAC5InputV_SayAHGtFZ",
-            "mangledName": "$s11HFLogBeaver17HFFilterValidatorV8validate5input3forSDyAC14ValidationTypeOAC6ResultOGAC5InputV_SayAHGtFZ",
-            "moduleName": "HFLogBeaver",
-            "static": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "HFFilterValidator",
-                "printedName": "HFLogBeaver.HFFilterValidator",
-                "usr": "s:11HFLogBeaver17HFFilterValidatorV"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HFLogBeaver17HFFilterValidatorVACycfc",
-            "mangledName": "$s11HFLogBeaver17HFFilterValidatorVACycfc",
-            "moduleName": "HFLogBeaver",
-            "implicit": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:11HFLogBeaver17HFFilterValidatorV",
-        "mangledName": "$s11HFLogBeaver17HFFilterValidatorV",
-        "moduleName": "HFLogBeaver",
-        "declAttributes": [
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "BitwiseCopyable",
-            "printedName": "BitwiseCopyable",
-            "usr": "s:s15BitwiseCopyableP",
-            "mangledName": "$ss15BitwiseCopyableP"
-          }
         ]
       },
       {
@@ -9949,48 +6940,6 @@
                     "mangledName": "$s11HFLogBeaver08HFSwiftyB0C5LevelO8rawValueSivg",
                     "moduleName": "HFLogBeaver",
                     "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "severity",
-                "printedName": "severity",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO8severitySSvp",
-                "mangledName": "$s11HFLogBeaver08HFSwiftyB0C5LevelO8severitySSvp",
-                "moduleName": "HFLogBeaver",
-                "declAttributes": [
-                  "RawDocComment"
-                ],
-                "isFromExtension": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO8severitySSvg",
-                    "mangledName": "$s11HFLogBeaver08HFSwiftyB0C5LevelO8severitySSvg",
-                    "moduleName": "HFLogBeaver",
-                    "isFromExtension": true,
                     "accessorKind": "get"
                   }
                 ]
@@ -10905,91 +7854,6 @@
           },
           {
             "kind": "Function",
-            "name": "dispatch_send",
-            "printedName": "dispatch_send(level:message:thread:file:function:line:context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Level",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver.Level",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C5LevelO"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "() -> Any",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "typeAttributes": [
-                  "noescape"
-                ]
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver08HFSwiftyB0C13dispatch_send5level7message6thread4file8function4line7contextyAC5LevelO_ypyXKS3SSiypSgtFZ",
-            "mangledName": "$s11HFLogBeaver08HFSwiftyB0C13dispatch_send5level7message6thread4file8function4line7contextyAC5LevelO_ypyXKS3SSiypSgtFZ",
-            "moduleName": "HFLogBeaver",
-            "static": true,
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "flush",
             "printedName": "flush(secondTimeout:)",
             "children": [
@@ -11011,60 +7875,11 @@
             "mangledName": "$s11HFLogBeaver08HFSwiftyB0C5flush13secondTimeoutSbs5Int64V_tFZ",
             "moduleName": "HFLogBeaver",
             "static": true,
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "stripParams",
-            "printedName": "stripParams(function:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver08HFSwiftyB0C11stripParams8functionS2S_tFZ",
-            "mangledName": "$s11HFLogBeaver08HFSwiftyB0C11stripParams8functionS2S_tFZ",
-            "moduleName": "HFLogBeaver",
-            "static": true,
-            "isOpen": true,
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "HFSwiftyBeaver",
-                "printedName": "HFLogBeaver.HFSwiftyBeaver",
-                "usr": "s:11HFLogBeaver08HFSwiftyB0C"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:11HFLogBeaver08HFSwiftyB0CACycfc",
-            "mangledName": "$s11HFLogBeaver08HFSwiftyB0CACycfc",
-            "moduleName": "HFLogBeaver",
-            "implicit": true,
-            "init_kind": "Designated"
           }
         ],
         "declKind": "Class",
@@ -11654,7 +8469,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(py)enableFileLog",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC13enableFileLogSbvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -11677,7 +8491,6 @@
                 "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)enableFileLog",
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13enableFileLogSbvg",
                 "moduleName": "HFLogBeaver",
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11704,7 +8517,6 @@
                 "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)setEnableFileLog:",
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13enableFileLogSbvs",
                 "moduleName": "HFLogBeaver",
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11726,7 +8538,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13enableFileLogSbvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -11755,7 +8566,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(py)logPrefixName",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logPrefixNameSSSgvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -11786,7 +8596,6 @@
                 "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)logPrefixName",
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logPrefixNameSSSgvg",
                 "moduleName": "HFLogBeaver",
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11821,7 +8630,6 @@
                 "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)setLogPrefixName:",
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logPrefixNameSSSgvs",
                 "moduleName": "HFLogBeaver",
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11843,7 +8651,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logPrefixNameSSSgvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -11872,7 +8679,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(py)logFilePath",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC11logFilePathSSSgvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -11903,7 +8709,6 @@
                 "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)logFilePath",
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC11logFilePathSSSgvg",
                 "moduleName": "HFLogBeaver",
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11938,7 +8743,6 @@
                 "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)setLogFilePath:",
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC11logFilePathSSSgvs",
                 "moduleName": "HFLogBeaver",
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -11960,7 +8764,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC11logFilePathSSSgvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -11981,7 +8784,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(py)logFileAmount",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logFileAmountSuvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -12008,7 +8810,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logFileAmountSuvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -12036,7 +8837,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logFileAmountSuvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -12058,7 +8858,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC13logFileAmountSuvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -12079,7 +8878,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(py)logFileMaxSize",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC14logFileMaxSizeSuvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -12106,7 +8904,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC14logFileMaxSizeSuvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -12134,7 +8931,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC14logFileMaxSizeSuvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -12156,7 +8952,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC14logFileMaxSizeSuvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -12177,7 +8972,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(py)minLevel",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC8minLevelAA03LogF0Ovp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -12204,7 +8998,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC8minLevelAA03LogF0Ovg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -12232,7 +9025,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC8minLevelAA03LogF0Ovs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -12254,7 +9046,6 @@
                 "mangledName": "$s11HFLogBeaver11SwiftLoggerC8minLevelAA03LogF0OvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -12287,7 +9078,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)addConsoleDestinationWithMinLevel:useTerminalColors:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC21addConsoleDestination8minLevel17useTerminalColorsyAA03LogI0O_SbtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "objc_name": "addConsoleDestinationWithMinLevel:useTerminalColors:",
             "declAttributes": [
               "AccessControl",
@@ -12354,7 +9144,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)addFileDestinationWithLogFileStr:minLevel:logFileMaxSize:logFileAmount:logPrefixName:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC18addFileDestination03logF3Str8minLevel0hF7MaxSize0hF6Amount0H10PrefixNameySSSg_AA03LogK0OS2uSStF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "objc_name": "addFileDestinationWithLogFileStr:minLevel:logFileMaxSize:logFileAmount:logPrefixName:",
             "declAttributes": [
               "AccessControl",
@@ -12378,7 +9167,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)setupLogBeaver",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC08setupLogB0yyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12410,7 +9198,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)getLogPrefixName",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC16getLogPrefixNameSSSgyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12442,7 +9229,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)getLogFilePath",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC14getLogFilePathSSSgyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12465,7 +9251,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)rotateLogs",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC10rotateLogsyyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12488,7 +9273,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)removeAllDestinations",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC21removeAllDestinationsyyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12512,7 +9296,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)countDestinations",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC17countDestinationsSiyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12576,7 +9359,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)verbose:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC7verbose_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12640,7 +9422,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)debug:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC5debug_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12704,7 +9485,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)info:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC4info_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12768,7 +9548,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)warning:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC7warning_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12832,7 +9611,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)error:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC5error_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12896,7 +9674,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)critical:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC8critical_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12960,7 +9737,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger(im)fault:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver11SwiftLoggerC5fault_4file8function4line7contextySS_S2SSiypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -12973,7 +9749,6 @@
         "usr": "c:@M@HFLogBeaver@objc(cs)SwiftLogger",
         "mangledName": "$s11HFLogBeaver11SwiftLoggerC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC",
@@ -13570,7 +10345,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(py)enableFileLog",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC13enableFileLogSbvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -13597,7 +10371,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC13enableFileLogSbvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -13625,7 +10398,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC13enableFileLogSbvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -13647,7 +10419,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC13enableFileLogSbvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -13676,7 +10447,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(py)logFilePrefixName",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC17logFilePrefixNameSSSgvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -13710,7 +10480,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC17logFilePrefixNameSSSgvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -13746,7 +10515,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC17logFilePrefixNameSSSgvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -13768,7 +10536,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC17logFilePrefixNameSSSgvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -13797,7 +10564,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(py)logFilePath",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC11logFilePathSSSgvp",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
@@ -13831,7 +10597,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC11logFilePathSSSgvg",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -13867,7 +10632,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC11logFilePathSSSgvs",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "declAttributes": [
                   "ObjC"
                 ],
@@ -13889,7 +10653,6 @@
                 "mangledName": "$s11HFLogBeaver12LoggerBridgeC11logFilePathSSSgvM",
                 "moduleName": "HFLogBeaver",
                 "implicit": true,
-                "isOpen": true,
                 "accessorKind": "_modify"
               }
             ]
@@ -13922,7 +10685,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)addConsoleDestinationWithMinLevel:useTerminalColors:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC21addConsoleDestination8minLevel17useTerminalColorsySi_SbtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "objc_name": "addConsoleDestinationWithMinLevel:useTerminalColors:",
             "declAttributes": [
               "AccessControl",
@@ -13986,7 +10748,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)addFileDestinationWithLogFileStr:minLevel:logFileMaxSize:logFileAmount:logPrefixName:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC18addFileDestination03logF3Str8minLevel0hF7MaxSize0hF6Amount0H10PrefixNameySSSg_SiS2uSStF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "objc_name": "addFileDestinationWithLogFileStr:minLevel:logFileMaxSize:logFileAmount:logPrefixName:",
             "declAttributes": [
               "AccessControl",
@@ -14010,7 +10771,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)removeAllDestinations",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC21removeAllDestinationsyyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -14034,32 +10794,9 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)countDestinations",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC17countDestinationsSiyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
-              "RawDocComment"
-            ],
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "getAppName",
-            "printedName": "getAppName()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:11HFLogBeaver12LoggerBridgeC10getAppNameSSyF",
-            "mangledName": "$s11HFLogBeaver12LoggerBridgeC10getAppNameSSyF",
-            "moduleName": "HFLogBeaver",
-            "isOpen": true,
-            "declAttributes": [
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
@@ -14079,7 +10816,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)rotateLogs",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC10rotateLogsyyF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -14140,7 +10876,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)verbose:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC7verbose_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC",
@@ -14201,7 +10936,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)debug:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC5debug_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -14261,7 +10995,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)info:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC4info_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -14321,7 +11054,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)warning:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC7warning_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -14381,7 +11113,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)error:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC5error_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -14441,7 +11172,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)critical:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC8critical_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -14501,7 +11231,6 @@
             "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge(im)fault:file:function:line:context:",
             "mangledName": "$s11HFLogBeaver12LoggerBridgeC5fault_4file8function4line7contextySS_S2Ss5Int32VypSgtF",
             "moduleName": "HFLogBeaver",
-            "isOpen": true,
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -14513,7 +11242,6 @@
         "usr": "c:@M@HFLogBeaver@objc(cs)LoggerBridge",
         "mangledName": "$s11HFLogBeaver12LoggerBridgeC",
         "moduleName": "HFLogBeaver",
-        "isOpen": true,
         "declAttributes": [
           "AccessControl",
           "ObjC"
@@ -14587,758 +11315,6 @@
             "printedName": "Hashable",
             "usr": "s:SH",
             "mangledName": "$sSH"
-          }
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "String",
-        "printedName": "String",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "length",
-            "printedName": "length",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Int",
-                "printedName": "Swift.Int",
-                "usr": "s:Si"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:SS11HFLogBeaverE6lengthSivp",
-            "mangledName": "$sSS11HFLogBeaverE6lengthSivp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:SS11HFLogBeaverE6lengthSivg",
-                "mangledName": "$sSS11HFLogBeaverE6lengthSivg",
-                "moduleName": "HFLogBeaver",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "firstChar",
-            "printedName": "firstChar",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Character?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Character",
-                    "printedName": "Swift.Character",
-                    "usr": "s:SJ"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:SS11HFLogBeaverE9firstCharSJSgvp",
-            "mangledName": "$sSS11HFLogBeaverE9firstCharSJSgvp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Character?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Character",
-                        "printedName": "Swift.Character",
-                        "usr": "s:SJ"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:SS11HFLogBeaverE9firstCharSJSgvg",
-                "mangledName": "$sSS11HFLogBeaverE9firstCharSJSgvg",
-                "moduleName": "HFLogBeaver",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "lastChar",
-            "printedName": "lastChar",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.Character?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Character",
-                    "printedName": "Swift.Character",
-                    "usr": "s:SJ"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:SS11HFLogBeaverE8lastCharSJSgvp",
-            "mangledName": "$sSS11HFLogBeaverE8lastCharSJSgvp",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Character?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Character",
-                        "printedName": "Swift.Character",
-                        "usr": "s:SJ"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:SS11HFLogBeaverE8lastCharSJSgvg",
-                "mangledName": "$sSS11HFLogBeaverE8lastCharSJSgvg",
-                "moduleName": "HFLogBeaver",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "find",
-            "printedName": "find(_:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Swift.String.Index?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Index",
-                    "printedName": "Swift.String.Index",
-                    "usr": "s:SS5IndexV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Character",
-                "printedName": "Swift.Character",
-                "usr": "s:SJ"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:SS11HFLogBeaverE4findySS5IndexVSgSJF",
-            "mangledName": "$sSS11HFLogBeaverE4findySS5IndexVSgSJF",
-            "moduleName": "HFLogBeaver",
-            "declAttributes": [
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
-        "declKind": "Struct",
-        "usr": "s:SS",
-        "mangledName": "$sSS",
-        "moduleName": "Swift",
-        "declAttributes": [
-          "EagerMove",
-          "Frozen"
-        ],
-        "isExternal": true,
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "BidirectionalCollection",
-            "printedName": "BidirectionalCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Character",
-                    "printedName": "Swift.Character",
-                    "usr": "s:SJ"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Index",
-                    "printedName": "Swift.String.Index",
-                    "usr": "s:SS5IndexV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Substring",
-                    "printedName": "Swift.Substring",
-                    "usr": "s:Ss"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultIndices",
-                    "printedName": "Swift.DefaultIndices<Swift.String>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SI"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SK",
-            "mangledName": "$sSK"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CVarArg",
-            "printedName": "CVarArg",
-            "usr": "s:s7CVarArgP",
-            "mangledName": "$ss7CVarArgP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CodingKeyRepresentable",
-            "printedName": "CodingKeyRepresentable",
-            "usr": "s:s22CodingKeyRepresentableP",
-            "mangledName": "$ss22CodingKeyRepresentableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Collection",
-            "printedName": "Collection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Character",
-                    "printedName": "Swift.Character",
-                    "usr": "s:SJ"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Index",
-                "printedName": "Index",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Index",
-                    "printedName": "Swift.String.Index",
-                    "usr": "s:SS5IndexV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Iterator",
-                    "printedName": "Swift.String.Iterator",
-                    "usr": "s:SS8IteratorV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Substring",
-                    "printedName": "Swift.Substring",
-                    "usr": "s:Ss"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Indices",
-                "printedName": "Indices",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultIndices",
-                    "printedName": "Swift.DefaultIndices<Swift.String>",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:SI"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sl",
-            "mangledName": "$sSl"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Comparable",
-            "printedName": "Comparable",
-            "usr": "s:SL",
-            "mangledName": "$sSL"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomDebugStringConvertible",
-            "printedName": "CustomDebugStringConvertible",
-            "usr": "s:s28CustomDebugStringConvertibleP",
-            "mangledName": "$ss28CustomDebugStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomReflectable",
-            "printedName": "CustomReflectable",
-            "usr": "s:s17CustomReflectableP",
-            "mangledName": "$ss17CustomReflectableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CustomStringConvertible",
-            "printedName": "CustomStringConvertible",
-            "usr": "s:s23CustomStringConvertibleP",
-            "mangledName": "$ss23CustomStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Decodable",
-            "printedName": "Decodable",
-            "usr": "s:Se",
-            "mangledName": "$sSe"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Encodable",
-            "printedName": "Encodable",
-            "usr": "s:SE",
-            "mangledName": "$sSE"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByExtendedGraphemeClusterLiteral",
-            "printedName": "ExpressibleByExtendedGraphemeClusterLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "ExtendedGraphemeClusterLiteralType",
-                "printedName": "ExtendedGraphemeClusterLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s43ExpressibleByExtendedGraphemeClusterLiteralP",
-            "mangledName": "$ss43ExpressibleByExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByStringInterpolation",
-            "printedName": "ExpressibleByStringInterpolation",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "StringInterpolation",
-                "printedName": "StringInterpolation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "DefaultStringInterpolation",
-                    "printedName": "Swift.DefaultStringInterpolation",
-                    "usr": "s:s26DefaultStringInterpolationV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s32ExpressibleByStringInterpolationP",
-            "mangledName": "$ss32ExpressibleByStringInterpolationP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByStringLiteral",
-            "printedName": "ExpressibleByStringLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "StringLiteralType",
-                "printedName": "StringLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s26ExpressibleByStringLiteralP",
-            "mangledName": "$ss26ExpressibleByStringLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "ExpressibleByUnicodeScalarLiteral",
-            "printedName": "ExpressibleByUnicodeScalarLiteral",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UnicodeScalarLiteralType",
-                "printedName": "UnicodeScalarLiteralType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s33ExpressibleByUnicodeScalarLiteralP",
-            "mangledName": "$ss33ExpressibleByUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "LosslessStringConvertible",
-            "printedName": "LosslessStringConvertible",
-            "usr": "s:s25LosslessStringConvertibleP",
-            "mangledName": "$ss25LosslessStringConvertibleP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "MirrorPath",
-            "printedName": "MirrorPath",
-            "usr": "s:s10MirrorPathP",
-            "mangledName": "$ss10MirrorPathP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RangeReplaceableCollection",
-            "printedName": "RangeReplaceableCollection",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Substring",
-                    "printedName": "Swift.Substring",
-                    "usr": "s:Ss"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sm",
-            "mangledName": "$sSm"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sendable",
-            "printedName": "Sendable",
-            "usr": "s:s8SendableP",
-            "mangledName": "$ss8SendableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "SendableMetatype",
-            "printedName": "SendableMetatype",
-            "usr": "s:s16SendableMetatypeP",
-            "mangledName": "$ss16SendableMetatypeP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Sequence",
-            "printedName": "Sequence",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Element",
-                "printedName": "Element",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Character",
-                    "printedName": "Swift.Character",
-                    "usr": "s:SJ"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "Iterator",
-                "printedName": "Iterator",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Iterator",
-                    "printedName": "Swift.String.Iterator",
-                    "usr": "s:SS8IteratorV"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:ST",
-            "mangledName": "$sST"
-          },
-          {
-            "kind": "Conformance",
-            "name": "StringProtocol",
-            "printedName": "StringProtocol",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "UTF8View",
-                "printedName": "UTF8View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UTF8View",
-                    "printedName": "Swift.String.UTF8View",
-                    "usr": "s:SS8UTF8ViewV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "UTF16View",
-                "printedName": "UTF16View",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UTF16View",
-                    "printedName": "Swift.String.UTF16View",
-                    "usr": "s:SS9UTF16ViewV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "UnicodeScalarView",
-                "printedName": "UnicodeScalarView",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "UnicodeScalarView",
-                    "printedName": "Swift.String.UnicodeScalarView",
-                    "usr": "s:SS17UnicodeScalarViewV"
-                  }
-                ]
-              },
-              {
-                "kind": "TypeWitness",
-                "name": "SubSequence",
-                "printedName": "SubSequence",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Substring",
-                    "printedName": "Swift.Substring",
-                    "usr": "s:Ss"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:Sy",
-            "mangledName": "$sSy"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStream",
-            "printedName": "TextOutputStream",
-            "usr": "s:s16TextOutputStreamP",
-            "mangledName": "$ss16TextOutputStreamP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "TextOutputStreamable",
-            "printedName": "TextOutputStreamable",
-            "usr": "s:s20TextOutputStreamableP",
-            "mangledName": "$ss20TextOutputStreamableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_CustomPlaygroundQuickLookable",
-            "printedName": "_CustomPlaygroundQuickLookable",
-            "usr": "s:s30_CustomPlaygroundQuickLookableP",
-            "mangledName": "$ss30_CustomPlaygroundQuickLookableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
-            "printedName": "_ExpressibleByBuiltinExtendedGraphemeClusterLiteral",
-            "usr": "s:s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP",
-            "mangledName": "$ss51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinStringLiteral",
-            "printedName": "_ExpressibleByBuiltinStringLiteral",
-            "usr": "s:s34_ExpressibleByBuiltinStringLiteralP",
-            "mangledName": "$ss34_ExpressibleByBuiltinStringLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ExpressibleByBuiltinUnicodeScalarLiteral",
-            "printedName": "_ExpressibleByBuiltinUnicodeScalarLiteral",
-            "usr": "s:s41_ExpressibleByBuiltinUnicodeScalarLiteralP",
-            "mangledName": "$ss41_ExpressibleByBuiltinUnicodeScalarLiteralP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_HasContiguousBytes",
-            "printedName": "_HasContiguousBytes",
-            "usr": "s:s19_HasContiguousBytesP",
-            "mangledName": "$ss19_HasContiguousBytesP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "_ObjectiveCBridgeable",
-            "printedName": "_ObjectiveCBridgeable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "_ObjectiveCType",
-                "printedName": "_ObjectiveCType",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "NSString",
-                    "printedName": "Foundation.NSString",
-                    "usr": "c:objc(cs)NSString"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:s21_ObjectiveCBridgeableP",
-            "mangledName": "$ss21_ObjectiveCBridgeableP"
           }
         ]
       }
